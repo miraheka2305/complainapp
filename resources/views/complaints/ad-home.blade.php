@@ -1,31 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--Import materialize.css-->
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-	<!--Let browser know website is optimized for mobile-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Home</title>
-</head>
+@extends('layouts.admin')
 
-<body>
-	<nav>
-		<div class="nav-wrapper blue-grey darken-4">
-			<a href="#" class="brand-logo right">Logo</a>
-			<!--
-			<ul id="nav-mobile" class="left hide-on-med-and-down">
-				 <li><a href="#">Sass</a></li>
-				
-			</ul>-->
-			
-		</div>
-	</nav>
+@section('title', 'Home')
 
-	<div class="row" style="margin-bottom: 0px;">
-		<!-- Sidebar  -->
+@section('content')
+
+
+@endsection
+	<!--
+	<div class="row" style="margin-bottom: 0px;">-->
+		<!-- Sidebar  --><!--
 		<div class="col s12 m4 l2 " style="padding: 0px;">
 			<ul class="collapsible " style="margin:0px; height: 90vh;" data-collapsible="accordion">
 				<li>
@@ -59,15 +43,9 @@
 					</form>
 				</li>
 			</ul>
-		</div>
-		<!-- Content -->
+		</div> -->
+		<!-- Content --> <!--
 		<div class="col s12 m8 l10 blue-grey lighten-5" style="height: 90vh;">
 		
-		</div>
-	</div>
-
-	<!--Import jQuery before materialize.js-->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
-</html>
+		</div> 
+	</div> -->
