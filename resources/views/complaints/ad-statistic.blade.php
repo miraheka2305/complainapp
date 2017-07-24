@@ -47,6 +47,9 @@
 					</div>
 				</li>
 				<li>
+					<a class="collapsible-header" href="{{route('regisfreelancer')}}">Freelancer</a>
+				</li>
+				<li>
 					<a class="collapsible-header" href="{{ route('logout') }}"
 					   onclick="event.preventDefault();document.getElementById('logout-form').submit();">
 						Logout
