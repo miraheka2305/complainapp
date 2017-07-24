@@ -16,43 +16,50 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
+    <link type="text/css" rel="stylesheet" href="css/freelancer.css"  media="screen,projection">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Login</title>
 </head>
 
 <body>
+    <!-- <nav>
+        <div class="nav-wrapper white">
+            <a href="{{route('homeadmin')}}" class="brand-logo"><img class="responsive-img logo" src="img/collab.png"></a>
+        </div>
+    </nav> -->
 
-<h3 class="center-align" style="padding-top:50px;padding-bottom:50px;">ComplaintApp</h3>
-<div class="row" action="#">
-    <div class="col s1 m3 l4">
-    </div>
-    <div class="col s10 m6 l4">
-
-            <form class="form-horizontal" method="POST" action="{{ route('login') }}">
-                {{csrf_field()}}
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input id="username" name="email" type="text" class="validate">
-                        <label for="username">Email</label>
+    <div class="row" style="padding:60px;">
+        <div class="col s12 l6">
+            <div class="row valign-wrapper" style="padding-top: 50px;">
+                <img class="responsive-img" src="img/collab.png">
+            </div>
+        </div>
+        <div class="col s12 l6" style="padding:90px;">
+                <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+                    {{csrf_field()}}
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="username" name="email" type="text" class="validate">
+                            <label for="username">Email</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">vpn_key</i>
-                        <input id="password" type="password" class="validate" name="password">
-                        <label for="password">Password</label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">vpn_key</i>
+                            <input id="password" type="password" class="validate" name="password">
+                            <label for="password">Password</label>
+                        </div>
                     </div>
-                </div>
-                <button class="btn waves-effect waves-light blue-grey darken-3" style="float:right" type="submit" name="action">
-                    Login
-                </button>
-            </form>
+                    <button class="btn waves-effect waves-light" style="float:right" type="submit" name="action">
+                        Login
+                    </button>
+                </form>
+            
+        </div>
     </div>
-    <div class="col s1 m3 l4">
-    </div>
-</div>
 
 
 <!--Import jQuery before materialize.js-->
