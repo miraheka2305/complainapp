@@ -43,11 +43,15 @@ class KategoriController extends Controller
             'nama' => 'required',
             'prioritas' =>'required',
         ]);
+
         $kategori = new kategori();
-        $kategori->nama = $request->nama;
-        $kategori->prioritas = $request->prioritas;
+        
+        $kategori->nama         = $request->nama;
+        $kategori->prioritas    = $request->prioritas;
+
         $kategori->save();
-        return redirect()->route('createkategori');
+
+        return redirect()->route('editkategori');
     }
 
     /**
