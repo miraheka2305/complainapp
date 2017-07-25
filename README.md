@@ -9,3 +9,8 @@ Masih dalam tahap pengembangan.
 - Dont forget to install php web server. You can follow this tutorial: http://php.net/manual/en/install.windows.php
 - You dont need to configure the database (Because the database is ready online)
 - Just start the app by `php artisan serve` command
+
+# User Credential
+### Admin
+- Email : admin@admin.labtek
+- Password : admin.labtek
