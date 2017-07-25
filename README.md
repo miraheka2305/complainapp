@@ -14,3 +14,6 @@ Masih dalam tahap pengembangan.
 ### Admin
 - Email : admin@admin.labtek
 - Password : admin.labtek
+### Freelancer
+- Email : freelancer@freelancer.labtek
+- Password : freelancer.labtek
