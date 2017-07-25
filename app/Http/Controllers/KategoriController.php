@@ -64,7 +64,7 @@ class KategoriController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified resource. 
      *
      * @param  \App\kategori  $kategori
      * @return \Illuminate\Http\Response

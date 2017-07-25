@@ -16,7 +16,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-    <link type="text/css" rel="stylesheet" href="css/freelancer.css"  media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/collab.css"  media="screen,projection">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -41,7 +41,7 @@
                     {{csrf_field()}}
                     <div class="row">
                         <div class="input-field col s12">
-                            <i class="material-icons prefix">account_circle</i>
+                            <i class="material-icons prefix">email</i>
                             <input id="username" name="email" type="text" class="validate">
                             <label for="username">Email</label>
                         </div>

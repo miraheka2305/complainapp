@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -106,29 +106,29 @@
 			  		</div>
 			  		<div id="complaint1" class="modal modal-fixed-footer">
 			  			<div class="modal-content">
-			  				<div class="row">
-			  					<div class="col l6 red lighten-4">
+			  				<div class="row red lighten-4">
+			  					<div class="col l7 ">
 			  						<h5>Complaint Message</h5>
 			  						<p>
 			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  					</div>
-			  					<div class="col l6 amber lighten-4">
-			  						<h5>Answer</h5>
-			  						<p>
-			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			  					<div class="col l5 amber lighten-4">
+			  						Date: DD-MM-YYYY<br>
+	  								Category: Kategori 1<br>
+			  						<span class="badge green darken-3 white-text" ><b>Answered</b></span>
 			  					</div>
 			  				</div>
 			  				<div class="row">
 			  					<div class="col l12 light-blue lighten-4">
-			  						<div class="row valign-wrapper">
-			  							<div class="col l8">
-			  								Date: DD-MM-YYYY<br>
-			  								Category: Kategori 1<br>
-					  						<span class="badge green darken-3 white-text" ><b>Answered</b></span>			
+			  						<div class="row">
+			  							<div class="col l7">
+			  								<h5>Answer</h5>
+					  						<p>
+					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
 			  							</div>
-			  							<div class="col l4">
+			  							<!-- <div class="col l4">
 			  								<a class="waves-effect waves-light btn disabled">Send Follow Up</a>
-			  							</div>
+			  							</div> -->
 			  						</div>
 			  						
 			  					</div>
@@ -136,6 +136,7 @@
 			  				</div>
 			  			</div>
 				  		<div class="modal-footer">
+				  			<a class="waves-effect waves-light btn disabled">Send Follow Up</a>
 							<a href="#!" class="modal-action modal-close waves-effect waves-red darken-2 btn-flat">
 								<i class="material-icons left">close</i>Close
 							</a>
@@ -153,29 +154,30 @@
 			  		</div>
 			  		<div id="complaint2" class="modal modal-fixed-footer">
 			  			<div class="modal-content">
-			  				<div class="row">
-			  					<div class="col l6 red lighten-4">
+			  				<div class="row red lighten-4">
+			  					<div class="col l7 ">
 			  						<h5>Complaint Message</h5>
 			  						<p>
 			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  					</div>
-			  					<div class="col l6 amber lighten-4">
-			  						<h5>Answer</h5>
-			  						<p>
-			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			  					<div class="col l5 amber lighten-4">
+			  						Date: DD-MM-YYYY<br>
+				  						Category: Kategori 2<br>
+				  						<span class="badge amber white-text"><b>On Review</b>
+			  						
 			  					</div>
 			  				</div>
 			  				<div class="row">
 			  					<div class="col l12 light-blue lighten-4">
-			  						<div class="row valign-wrapper">
-			  							<div class="col l8">
-			  								Date: DD-MM-YYYY<br>
-					  						Category: Kategori 2<br>
-					  						<span class="badge amber white-text"><b>On Review</b>
+			  						<div class="row ">
+			  							<div class="col l7">
+			  								<h5>Answer</h5>
+					  						<p>
+					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  							</div>
-			  							<div class="col l4">
+			  							<!-- <div class="col l4">
 			  								<a class="waves-effect waves-light btn">Send Follow Up</a>
-			  							</div>
+			  							</div> -->
 			  						</div>
 			  						
 			  					</div>
@@ -183,6 +185,7 @@
 			  				</div>
 			  			</div>
 				  		<div class="modal-footer">
+				  			<a class="modal-action modal-close waves-effect waves-red darken-2 btn-flat">Send Follow Up</a>
 							<a href="#!" class="modal-action modal-close waves-effect waves-red darken-2 btn-flat">
 								<i class="material-icons left">close</i>Close
 							</a>
@@ -200,29 +203,30 @@
 			  		</div>
 			  		<div id="complaint3" class="modal modal-fixed-footer">
 			  			<div class="modal-content">
-			  				<div class="row">
-			  					<div class="col l6 red lighten-4">
+			  				<div class="row red lighten-4">
+			  					<div class="col l7 ">
 			  						<h5>Complaint Message</h5>
 			  						<p>
 			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  					</div>
-			  					<div class="col l6 amber lighten-4">
-			  						<h5>Answer</h5>
-			  						<p>
-			  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			  					<div class="col l5 amber lighten-4">
+			  						Date: DD-MM-YYYY<br>
+			  						Category: Kategori 3<br>
+			  						<span class="badge red darken-2 white-text"><b>Received</b></span>
+			  						
 			  					</div>
 			  				</div>
 			  				<div class="row">
 			  					<div class="col l12 light-blue lighten-4">
-			  						<div class="row valign-wrapper">
-			  							<div class="col l8">
-			  								Date: DD-MM-YYYY<br>
-					  						Category: Kategori 3<br>
-					  						<span class="badge red darken-2 white-text"><b>Received</b></span>
+			  						<div class="row">
+			  							<div class="col l7">
+			  								<h5>Answer</h5>
+					  						<p>
+					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  							</div>
-			  							<div class="col l4">
+			  							<!-- <div class="col l4">
 			  								<a class="waves-effect waves-light btn">Send Follow Up</a>
-			  							</div>
+			  							</div> -->
 			  						</div>
 			  						
 			  					</div>
@@ -230,6 +234,7 @@
 			  				</div>
 			  			</div>
 				  		<div class="modal-footer">
+				  			<a class="modal-action modal-close waves-effect waves-red darken-2 btn-flat">Send Follow Up</a>
 							<a href="#!" class="modal-action modal-close waves-effect waves-red darken-2 btn-flat">
 								<i class="material-icons left">close</i>Close
 							</a>
