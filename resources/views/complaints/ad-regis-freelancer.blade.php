@@ -1,32 +1,81 @@
-<!DOCTYPE html>
+
+@extends('layouts.admin')
+
+@section('title', 'Add Freelancer')
+
+@section('content')
+<div class="row">
+    <div class="col l3"></div>
+    <div class="col l6">
+        <h4>Add Freelancer</h4>
+        <form method="POST" action="/store-kategori">
+            {{csrf_field()}}
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="name" type="text" name="name" class="validate">
+                    <label for="name">Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="nama" class="validate">
+                    <label for="email">Email Address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" name="nama" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" name="nama" class="validate">
+                    <label for="password">Confirm Password</label>
+                </div>
+            </div>
+
+            
+            <button class="btn waves-effect waves-light" style="float:right" type="submit" name="action">
+                <i class="material-icons left">add</i>Add
+            </button>
+        </form>
+    </div>
+    <div class="col l3"></div>
+</div>
+
+
+@endsection
+
+<!--<!DOCTYPE html>
 <html>
-<head>
+<head>-->
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>New Category</title>
 </head>
 
 <body>
     <nav>
         <div class="nav-wrapper blue-grey darken-4">
-            <a href="#" class="brand-logo right">Logo</a>
+            <a href="#" class="brand-logo right">Logo</a> -->
             <!--
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                  <li><a href="#">Sass</a></li>
                 
             </ul>-->
             
-        </div>
+        <!-- </div>
     </nav>
 
-    <div class="row" style="margin-bottom: 0px;">
+    <div class="row" style="margin-bottom: 0px;"> -->
         <!-- Sidebar  -->
-        <div class="col s12 m4 l2 " style="padding: 0px;">
+        <!-- <div class="col s12 m4 l2 " style="padding: 0px;">
             <ul class="collapsible " style="margin:0px; height: 90vh;" data-collapsible="accordion">
                 <li>
                     <a class="collapsible-header" href="{{route('homeadmin')}}">Home</a>
@@ -60,47 +109,15 @@
                 </li>
 
             </ul>
-        </div>
+        </div> -->
         <!-- Content -->
-        <div class="col s12 m8 l10 blue-grey lighten-5" style="height: 90vh;">
-            <h4>Add Freelancer</h4>
-            <form method="POST" action="/store-kategori">
-                {{csrf_field()}}
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="name" type="text" name="name" class="validate">
-                        <label for="name">Name</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" type="email" name="nama" class="validate">
-                        <label for="email">Email Address</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="password" name="nama" class="validate">
-                        <label for="password">Password</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="password" name="nama" class="validate">
-                        <label for="password">Confirm Password</label>
-                    </div>
-                </div>
-
-                
-                <button class="btn waves-effect waves-light blue-grey darken-3" style="float:right" type="submit" name="action">
-                    <i class="material-icons left">add</i>Add
-                </button>
-            </form>
-        </div>
-    </div>
+        <!-- <div class="col s12 m8 l10 blue-grey lighten-5" style="height: 90vh;"> -->
+            
+        <!-- div>
+    </div> -->
 
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -108,4 +125,4 @@
         });
     </script>
 </body>
-</html>
+</html> -->

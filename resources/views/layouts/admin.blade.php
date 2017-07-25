@@ -28,7 +28,7 @@
 					<a href="{{route('editkategori')}}">Categories</a>
 				</li>
 				<li>
-					<a href="{{route('regisfreelancer')}}">Freelancers</a>
+					<a href="{{route('regisfreelancer')}}">Add Freelancer</a>
 				</li>
 				<li>
 					<a href="{{ route('logout') }}" onclick="event.preventDefault();
