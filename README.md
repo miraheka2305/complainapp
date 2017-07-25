@@ -6,7 +6,7 @@ Masih dalam tahap pengembangan.
 
 # How to use it?
 - Clone this project to your local computer.
-- Dont forget to install php web server. You can follow this tutorial: http://php.net/manual/en/install.windows.php
+- Dont forget to install php web server. You can follow this tutorial: http://php.net/manual/en/install.php
 - You dont need to configure the database (Because the database is ready online)
 - Just start the app by `php artisan serve` command
 
