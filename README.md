@@ -1,7 +1,11 @@
-# complainapp
- import database
-   php artisan migrate //pake cmd
-akitifin server dengan cara
-   php artisan serve //ngegunain cmd, arahin ke foldernya
- halaman register
-   /register (buat input freelancer)
+# Introduction
+Selamat datang di halaman project dari tim KP Labtek (Mei - Juli). Aplikasi ini menceritakan tentang pengajuan komplain yang dapat dimonitoring oleh tim admin Labtek Indie.
+
+# Fitur
+Masih dalam tahap pengembangan.
+
+# How to use it?
+- Clone this project to your local computer.
+- Dont forget to install php web server. You can follow this tutorial http://php.net/manual/en/install.windows.php
+- You dont need to configure the database (Because the database is ready online)
+- Just start the app by php artisan serve command
