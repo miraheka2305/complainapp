@@ -26,10 +26,12 @@ Route::middleware(['IsAdmin'])->group(function (){
     Route::post('/store-kategori','KategoriController@store');
     Route::get('/statistik','PageController@statistic')->name('statistic');
     Route::get('/view-complaint','PageController@complaint')->name('viewcomplaint');
+    Route::get('/regis-fl','PageController@regisfreelancer')->name('regisfreelancer');
 });
 Route::middleware(['IsFreelancer'])->group(function(){
     Route::get('/home-fl','PageController@dashboardfl')->name('homefl');
     Route::get('/new-complaint','PageController@newcomplaint')->name('newcomplaint');
+    Route::get('/view-answer','PageController@viewanswer')->name('viewanswer');
 });
 
 Route::get('/home-fl','PageController@dashboardfl')->name('homefl')->middleware('IsFreelancer');

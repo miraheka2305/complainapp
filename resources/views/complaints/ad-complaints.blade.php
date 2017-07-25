@@ -47,6 +47,9 @@
 					</div>
 				</li>
 				<li>
+					<a class="collapsible-header" href="{{route('regisfreelancer')}}">Freelancer</a>
+				</li>
+				<li>
 					<a class="collapsible-header" href="{{ route('logout') }}"
 					   onclick="event.preventDefault();document.getElementById('logout-form').submit();">
 						Logout
@@ -60,6 +63,17 @@
 		<!-- Content -->
 		<div class="col s12 m8 l10" style="height: 90vh;">
 			<h4>All Complaints</h4>
+			<div class="row">
+				<div class="input-field col s3">
+				    <select name="category">
+				      	<option value="" disabled selected>Choose your option</option>
+				      	<option value="1">Category 1</option>
+				      	<option value="2">Category 2</option>
+				      	<option value="3">Category 3</option>
+				    </select>
+				    <label>Category</label>
+				</div>
+			</div>
 			<table class="highlight">
 		        <thead>
 		          	<tr>
@@ -101,5 +115,10 @@
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		    $('select').material_select();
+		});
+	</script>
 </body>
 </html>
