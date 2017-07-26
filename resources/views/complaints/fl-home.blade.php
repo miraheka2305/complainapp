@@ -126,9 +126,7 @@
 					  						<p>
 					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
 			  							</div>
-			  							<!-- <div class="col l4">
-			  								<a class="waves-effect waves-light btn disabled">Send Follow Up</a>
-			  							</div> -->
+			  							
 			  						</div>
 			  						
 			  					</div>
@@ -175,9 +173,7 @@
 					  						<p>
 					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  							</div>
-			  							<!-- <div class="col l4">
-			  								<a class="waves-effect waves-light btn">Send Follow Up</a>
-			  							</div> -->
+			  							
 			  						</div>
 			  						
 			  					</div>
@@ -224,9 +220,7 @@
 					  						<p>
 					  						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  							</div>
-			  							<!-- <div class="col l4">
-			  								<a class="waves-effect waves-light btn">Send Follow Up</a>
-			  							</div> -->
+			  							
 			  						</div>
 			  						
 			  					</div>
@@ -245,82 +239,7 @@
 			</tbody>
 		</table>
 	</div>
-	<!--
-	<div class="row" style="margin-bottom: 0px;">
-		 Sidebar  
-		<div class="col s12 m4 l2 " style="padding: 0px;">
-			<ul class="collapsible " style="margin:0px; height: 90vh;" data-collapsible="accordion">
-				<li>
-					<div class="row valign-wrapper blue-grey darken-1" style="padding: 20px 0px 20px 0px; ">
-						<div class="col s4">
-						  <img src="img/user.jpg" class="circle responsive-img"> 
-						</div>
-						<div class="col s8">
-						  <span class="white-text">
-							Username
-						  </span>
-						</div>
-					</div>
-				</li>
-				<li>
-					<a class="collapsible-header" href="{{route('homefl')}}">Home</a>
-				</li>
-				<li>
-					<a class="collapsible-header" href="{{route('newcomplaint')}}">Complaint</a>
-				</li>
-				
-				<li>
-					<a class="collapsible-header" href="{{ route('logout') }}"
-					   onclick="event.preventDefault();
-													 document.getElementById('logout-form').submit();">
-						Logout
-					</a>
-					<form id="logout-form" action="{{ route('logout') }}" method="POST" >
-						{{ csrf_field() }}
-					</form>
-				</li>
-			</ul> 
-		</div>-->
-		<!-- Content --><!--
-		<div class="col s12 m8 l10 blue-grey lighten-5" style="height: 90vh;">
-			<h4>All Complaints</h4>
-			<table class="highlight">
-				<thead>
-					<tr>
-						<th>No</th>
-						<th>Date</th>
-						<th>Category</th>
-						<th>Description</th>
-						<th>Status</th>
-					</tr>
-				</thead>
-
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>20-07-2017</td>
-						<td>Category 1</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-						<td>Answered</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>20-07-2017</td>
-						<td>Category 1</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-						<td>Answered</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>20-07-2017</td>
-						<td>Category 1</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-						<td>Answered</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>-->
+	
 
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

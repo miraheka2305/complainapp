@@ -27,7 +27,7 @@ class KategoriController extends Controller
     public function create()
     {
         //form buat input data
-        return view('complaints.ad-new-category');
+        return view('complaints.ad-category');
     }
 
     /**

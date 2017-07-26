@@ -28,7 +28,7 @@
 					<a href="{{route('editkategori')}}">Categories</a>
 				</li>
 				<li>
-					<a href="{{route('regisfreelancer')}}">Add Freelancer</a>
+					<a href="{{route('regisfreelancer')}}">Freelancers</a>
 				</li>
 				<li>
 					<a href="{{ route('logout') }}" onclick="event.preventDefault();
@@ -39,6 +39,18 @@
 				</li>
 			</ul>
 			<ul class="side-nav" id="mobile-demo">
+				<li>
+					<a href="{{route('homeadmin')}}">Home</a>
+				</li>
+				<li>
+					<a href="{{route('viewcomplaint')}}">Complaints</a>
+				</li>
+				<li>
+					<a href="{{route('editkategori')}}">Categories</a>
+				</li>
+				<li>
+					<a href="{{route('regisfreelancer')}}">Freelancers</a>
+				</li>
 				<li>
 					<a href="{{ route('logout') }}" onclick="event.preventDefault();
 						document.getElementById('logout-form').submit();">Logout</a>
@@ -65,7 +77,7 @@
 		});
 
 		$('tr').click(function(){
-			var id = '#complaint'+this.id;
+			var id = '#modal'+this.id;
 			console.log(id);
 			$(id).modal('open');
 		});
