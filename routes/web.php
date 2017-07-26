@@ -32,6 +32,7 @@ Route::middleware(['IsFreelancer'])->group(function(){
     Route::get('/home-fl','PageController@dashboardfl')->name('homefl');
     Route::get('/new-complaint','PageController@newcomplaint')->name('newcomplaint');
     Route::get('/view-answer','PageController@viewanswer')->name('viewanswer');
+    Route::resource('complaints', 'ComplaintController');
 });
 
 Route::get('/home-fl','PageController@dashboardfl')->name('homefl')->middleware('IsFreelancer');
