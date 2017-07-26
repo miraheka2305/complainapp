@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use App\kategori;
+use App\Complaint;
 
 class PageController extends Controller
 {
@@ -11,7 +14,10 @@ class PageController extends Controller
         return view('complaints.ad-home');
     }
     public function dashboardfl(){
-        return view('complaints.fl-home');
+        $user_id = Auth::id();
+        $complaints = Complaint::all();
+        $user_complaint = $complaints->where('user_id', $user_id);
+        return view('complaints.fl-home')->with("user_complaint", $user_complaint);
     }
     public function statistic(){
         return view('complaints.ad-statistic');
@@ -23,7 +29,9 @@ class PageController extends Controller
         return view('complaints.ad-regis-freelancer');
     }
     public function newcomplaint(){
-        return view('complaints.fl-new-complaint');
+        $user_id = Auth::id();
+        $kategoris = kategori::all();
+        return view('complaints.fl-new-complaint')->with("user_id", $user_id)->with("kategoris", $kategoris);
     }
     public function viewanswer(){
         return view('complaints.fl-view-answer');

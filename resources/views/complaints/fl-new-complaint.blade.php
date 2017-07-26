@@ -35,7 +35,7 @@
 			            </div>
 			            <div class="col s8">
 			              <span class="white-text">
-			                Username
+			                User ID : {{ $user_id }}
 			              </span>
 			            </div>
 			        </div>
@@ -62,22 +62,25 @@
 		<!-- Content -->
 		<div class="col s12 m8 l10 blue-grey lighten-5" style="height: 90vh;">
 			<h4>New Complaint</h4>
-			<form>
+			<form method="POST" action="/store-complaint">
+				{{csrf_field()}}
 				<div class="row">
 					<div class="input-field col s12">
-					    <select>
+					    <select name="category_id">
 					      	<option value="" disabled selected>Choose your option</option>
-					      	<option value="1">Category 1</option>
-					      	<option value="2">Category 2</option>
-					      	<option value="3">Category 3</option>
+							@foreach($kategoris as $kategori)
+							  
+							  <option value='{{ $kategori->id }}'>{{ $kategori->nama }}</option>
+							  
+							@endforeach
 					    </select>
 					    <label>Category</label>
 					</div>
 				</div>
 				<div class="row">
 			        <div class="input-field col s12">
-			          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-			          <label for="icon_prefix2">Message</label>
+			          <textarea id="message" name="message" class="materialize-textarea"></textarea>
+			          <label for="message">Message</label>
 			        </div>
 			    </div>
 				

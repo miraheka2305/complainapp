@@ -74,27 +74,15 @@
 		        </thead>
 
 		        <tbody>
-		          	<tr>
-		            	<td>1</td>
-		            	<td>20-07-2017</td>
-		            	<td>Category 1</td>
-		            	<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-		            	<td>Answered</td>
-		          	</tr>
-		          	<tr>
-		            	<td>2</td>
-		            	<td>20-07-2017</td>
-		            	<td>Category 1</td>
-		            	<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-		            	<td>Answered</td>
-		          	</tr>
-		          	<tr>
-		            	<td>3</td>
-		            	<td>20-07-2017</td>
-		            	<td>Category 1</td>
-		            	<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</td>
-		            	<td>Answered</td>
-		          	</tr>
+					@foreach($user_complaint as $index => $uc)
+						<tr>
+							<td>{{ $index+1 }}</td>
+							<td>20-07-2017</td>
+							<td>Category 1</td>
+							<td>{{ $uc -> message }}</td>
+							<td>Answered</td>
+						</tr>
+					@endforeach
 		        </tbody>
 		    </table>
 		</div>
